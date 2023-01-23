@@ -504,8 +504,21 @@ top: 2px;
     display: none;
 }
 
+/* pagina CONTACTANOS*/
+.title_contactanos h1 {
+    padding-left: 10px;
+
+    }
+
+    .title_contactanos h2 {
+        padding-left: 30px;
+    
+        }
+
+
+
+
 }
 
-@media screen  {
-    
-}
+
+
