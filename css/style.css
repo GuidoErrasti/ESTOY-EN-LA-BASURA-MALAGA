@@ -45,9 +45,7 @@ header {
 
 .imgLogo{
     width: 140px;
-    margin-inline-end: auto;float
-
-
+    margin-inline-end: auto; float;
 }
 
 a{
@@ -150,6 +148,13 @@ nav ul li {
     justify-content: center;
     align-items: center;
     grid-area: area1;
+    filter: blur(10px);
+    transition: 0,5s;
+
+}
+
+.producto_1 img:hover{
+    filter:blur(0px)
 }
 
 
@@ -160,6 +165,12 @@ nav ul li {
     padding: 5px ;
     border-radius: 5%;
     grid-area: area2;
+    filter: blur(10px);
+    transition: 0,5s;
+    }
+
+    .producto_2 img:hover{
+        filter:blur(0px)
     }
 
 .producto_3 img {
@@ -169,15 +180,28 @@ nav ul li {
     padding: 5px ;
     border-radius: 5%;
     grid-area: area3;
+    filter: blur(10px);
+    transition: 0,5s;
     }
+
+    .producto_3 img:hover{
+        filter:blur(0px)
+    }
+
 
 .producto_4 img{
     width: 100%;
     height: 100%;
-            margin: 5px ;
-            padding: 5px ;
-            border-radius: 5%;
-            grid-area: area4;
+    margin: 5px ;
+    padding: 5px ;
+    border-radius: 5%;
+    grid-area: area4;
+    filter: blur(10px);
+    transition: 0,5s;
+            }
+
+            .producto_4 img:hover{
+                filter:blur(0px)
             }
 
 .producto_5 img{
@@ -187,8 +211,15 @@ nav ul li {
     padding: 5px ;
     border-radius: 5%;
     grid-area: area5;
+    filter: blur(10px);
+    transition: 0,5s;
             
 }
+.producto_5 img:hover{
+    filter:blur(0px)
+}
+
+
 
 .producto_6 img{
     width: 100%;
@@ -197,8 +228,16 @@ nav ul li {
     padding: 5px ;
     border-radius: 5%;
     grid-area: area6;
+    filter: blur(10px);
+    transition: 0,5s;
     
 }
+
+.producto_6 img:hover{
+    filter:blur(0px)
+}
+
+
 
 /* A continuacion Solo GRILLA DE PRUEBA*/ /*
 .g1{
