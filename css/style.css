@@ -519,6 +519,21 @@ top: 2px;
     margin: 126px;
 }
 
+.formulario2{
+    font-size: 13px;
+    width: 179px;
+    padding-left: 30px;
+
+}
+
+.navbar-brand{
+    font-size: 13px;
+}
+
+.textarea{
+    width: 170px;
+}
+
 
 }
 
