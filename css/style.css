@@ -560,6 +560,8 @@ top: 2px;
 
 .formulario_contenedor{
     margin: 126px;
+    margin: left 110px; ;
+    
 }
 
 .formulario2{
@@ -570,11 +572,11 @@ top: 2px;
 }
 
 .navbar-brand{
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .textarea{
-    width: 170px;
+    width: 150px;
 }
 
 
