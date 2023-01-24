@@ -63,6 +63,7 @@ nav ul li {
     align-items: center;
     vertical-align: middle;
 
+
 }
 
 .navSuperior {
@@ -269,12 +270,18 @@ nav ul li {
 
 /*FOOTER*/
 
-.footer {
+.footer ul li{
     color: rgb(3, 37, 37);
     text-align: center;
-    font-size: 50px;
+    font-size: 20px;
     height: 100%;
     width: 100%;
+    -webkit-transition: left 0,6s ;
+}
+
+.footer ul li:hover {
+    padding-left: 30px;
+
 }
 
 
@@ -453,7 +460,7 @@ nav ul li {
  
 /*MEdia Querie*/
 
-@media only screen and (max-width:480px) {
+@media only screen and (min-width: 320px) and (max-width:480px) {
 
     .header{
         background-color: rgb(3, 3, 3);
@@ -505,8 +512,8 @@ nav ul li {
     }
 
     .hero_section h1{
-    padding-top: 450px;
-    font-size: 28px;
+    padding-top: 170px;
+    font-size: 26px;
 }
 
 #cuartonav{
@@ -560,23 +567,31 @@ top: 2px;
 
 .formulario_contenedor{
     margin: 126px;
-    margin: left 110px; ;
-    
+    margin-left: 75px; 
+    background: none;
+
 }
 
 .formulario2{
     font-size: 13px;
-    width: 179px;
-    padding-left: 30px;
+    width: 228px;
+    padding-left: 26px;
 
 }
 
-.navbar-brand{
+.navbar a{
     font-size: 12px;
 }
 
 .textarea{
     width: 150px;
+}
+
+
+/*QUIENES SOMOS*/
+
+.titulo_quienessomos h1{
+    padding-left: 13px;
 }
 
 
